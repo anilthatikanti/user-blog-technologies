@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.blogItemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  height: 100vh;
+}
+.authorContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.authorImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.authorName {
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.imageStyle {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}

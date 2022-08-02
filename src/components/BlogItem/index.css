@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.blogItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8e8e8e;
+  border-radius: 5px;
+  height: 120px;
+  padding: 10px;
+  width: 70vw;
+  margin: 10px 0px;
+}
+.linkItem {
+  text-decoration: none;
+  width: 100%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'roboto';
+  height: 100px;
+  font-size: 12px;
+}
+p {
+  margin: 8px;
+  border-width: 0px;
+}
+.topic {
+  color: #8e8e8e;
+  font-weight: 500;
+}
+.title {
+  color: #000000;
+  font-weight: 500;
+}
+.authorStyle {
+  color: #8e8e8e;
+  font-weight: 500;
+}
+.image {
+  height: 100px;
+  width: 150px;
+  border-radius: 4px;
+}
+.authorProfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.authorImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
